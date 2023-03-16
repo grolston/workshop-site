@@ -13,9 +13,9 @@ enableEmoji = true
   # Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
   # Useful to give opportunity to people to create merge request for your doc.
   # See the config.toml file from this documentation site to have an example.
-  #editURL = ""
+  #editURL = "https://github.com/grolston/workshop-site"
   # Author of the site, will be used in meta information
-  author = "James Bland"
+  author = "George Rolston"
   # Description of the site, will be used in meta information
   description = "AWS Modernization Workshop"
   # Shows a checkmark for visited pages on the menu
@@ -46,7 +46,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 name = "<i class='fas fa-graduation-cap'></i> Modernization Workshops"
-url = "https://awsworkshop.io"
+url = "https://grolston.github.io/workshop-site/"
 weight = 10
 
 [[menu.shortcuts]]
