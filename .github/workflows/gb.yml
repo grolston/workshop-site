@@ -1,4 +1,3 @@
-
 name: Deploy GHP
 
 on:
@@ -8,6 +7,7 @@ on:
       - main
 
 jobs:
+
   build:
     name: Build Gitbook
     runs-on: ubuntu-latest
