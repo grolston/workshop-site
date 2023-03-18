@@ -6,6 +6,11 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+  repository-projects: write
+  pages: write
+
 jobs:
 
   build:
