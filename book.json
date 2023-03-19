@@ -4,12 +4,20 @@
     "github",
     "anchors",
     "splitter",
-    "expandable-chapters"
+    "expandable-chapters",
+    "download-pdf-link"
   ],
 
   "pluginsConfig": {
     "github": {
-      "url": "https://github.com/tuliren/publish-gitbook"
+      "url": "https://github.com/grolston/workshop-site"
+    },
+    "download-pdf-link": {
+      "base": "https://www.gitbook.com/book/poppy-project/poppy-docs/",
+      "label": {
+          "en": "Download PDF",
+          "fr": "Télécharger le PDF"
+      }
     }
   }
 }
